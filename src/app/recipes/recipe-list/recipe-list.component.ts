@@ -10,7 +10,7 @@ import { Recipe } from '../recipe';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [];
     @Output() recipeSelected = new EventEmitter<Recipe>();
-    recipe = new Recipe('Dummy', 'Dummy Description', 'http://www.dcs.gla.ac.uk/~stephen/science_museum/dummy_head.jpg');
+    recipe = new Recipe('Dummy', 'Dummy Description', 'http://www.loupiote.com/photos_m/2229369620-store-dummy-vienna.jpg');
   constructor() { }
 
   ngOnInit() {
